@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>balls</title>
 <style>
-	* {
-    	font-family: "Times New Roman", Times, serif;
-    }
+* {
+font-family: "Times New Roman", Times, serif;
+}
 </style>
 </head>
 <body>
-  <h3>
-    We sell balls here
-  </h3>
-  <label for="fname">Credit Card Number:</label><br>
+<h3>
+We sell balls here
+</h3>
+<form onsubmit="return document.write('Thank you for your money')">
+ <label for="fname">Credit Card Number:</label><br>
   <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Expiration Date:</label><br>
-  <input type="text" id="lname" name="lname"><br><br>
-  <label for="sname">Security Number:</label><br>
-  <input type="text" id="sname" name="sname"><br><br>
-  <input type="submit" value="Purchase balls">
+ <label for="lname">Expiration Date:</label><br>
+ <input type="text" id="lname" name="lname"><br><br>
+   <label for="sname">Security Number:</label><br>
+ <input type="text" id="sname" name="sname"><br><br>
+ <input type="submit" value="Purchase balls" >
+  </form>
 </body>
 </html>
